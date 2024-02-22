@@ -51,11 +51,11 @@ h6 {
 
 @font-face {
     font-family: romeo;
-    src: url(/newsletter-sign-up-with-success-message-main/assets/fonts/Roboto-Bold.ttf);
+    src: url(/assets/fonts/Roboto-Bold.ttf);
 }
 @font-face {
     font-family: romeolight;
-    src: url(/newsletter-sign-up-with-success-message-main/assets/fonts/Roboto-Regular.ttf);
+    src: url(/assets/fonts/Roboto-Regular.ttf);
 }
 
 body{
