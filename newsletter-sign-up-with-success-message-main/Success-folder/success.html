@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<link rel="stylesheet" href="./style1.css" />
+	<body>
+		<!-- Success message start -->
+
+		<div id="success">
+			<div class="success-body">
+				<img
+					src="/newsletter-sign-up-with-success-message-main/assets/images/icon-success.svg"
+					alt="subscription"
+				/>
+				<h1 id="head">Thanks for subscribing!</h1>
+				<p class="confirm">
+					A confirmation email has been sent to <span id="confirmEmail"></span>.
+					Please open it and click the button inside to confirm your
+					subscription. Dismiss message
+				</p>
+				<button
+					onclick="redirectToIndex()"
+				>
+					Dismiss Message
+				</button>
+			</div>
+		</div>
+		<script src="./app.js"></script>
+		<!-- Success message end -->
+	</body>
+</html>

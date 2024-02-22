@@ -22,6 +22,9 @@ function validateForm() {
 	if (!validateEmail()) {
 		error.innerHTML = "Please enter email";
 		return false;
+	} else {
+		let form = document.querySelector("form");
+		form.action = "./Success-folder/success.html";
+		return true;
 	}
-	return true;
 }

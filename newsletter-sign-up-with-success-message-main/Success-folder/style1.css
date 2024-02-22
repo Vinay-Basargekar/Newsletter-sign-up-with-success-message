@@ -1,0 +1,105 @@
+/* CSS reset */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+html,
+body {
+	height: 100%;
+	/* if you want 1rem = 10px, easier for calculations */
+	/* font-size: 62.5%; */
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+body {
+	/* line-height: 1.5; */
+	-webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+	font: inherit;
+	outline: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+#root,
+#__next {
+	isolation: isolate;
+}
+
+@font-face {
+    font-family: romeo;
+    src: url(/newsletter-sign-up-with-success-message-main/assets/fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: romeolight;
+    src: url(/newsletter-sign-up-with-success-message-main/assets/fonts/Roboto-Regular.ttf);
+}
+
+body{
+    background: hsl(234, 29%, 20%);
+    font-family: romeo;
+}
+
+#success{
+    margin: 10rem auto;
+    background: white;
+    font-family: romeo;
+    border-radius: 16px;
+    width: 30rem;
+}
+
+.success-body{
+    padding: 2rem 4rem 2rem 4rem;
+    width: 40rem;
+}
+
+#success img{
+    padding-bottom: 2rem;
+}
+.success-body button{
+    width: 22rem;
+    height: 3rem;
+    border-radius: 8px;
+    font-family: romeo;
+    color: white;
+    background: hsl(235, 18%, 26%);
+    border: 1px;
+}
+
+.success-body button:hover{
+    background: hsl(4, 100%, 67%);
+}
+
+#head{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    width: 30rem;
+}
+
+.confirm{
+    width: 80%;
+    margin-bottom: 2rem;
+}

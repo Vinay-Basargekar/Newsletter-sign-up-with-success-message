@@ -68,7 +68,7 @@ body{
     align-items: center;
     background: white;
     margin: 100px auto;
-    width: 50rem;
+    width: 52rem;
     border-radius: 16px;
     padding: 1.5rem;
 }
@@ -83,11 +83,12 @@ body{
 .heading{
     margin: 1rem 1rem 0.5rem 0;
     font-size: 17px;
-    width: 80%;
+    width: 25rem;
     font-family: romeolight;
 }
 .point{
     display: flex;
+    /* width: 100%; */
 }
 
 .points{
@@ -129,7 +130,7 @@ body{
 }
 
 .right{
-    width: 30rem;
+    width: 40rem;
 }
 
 form{
@@ -139,6 +140,6 @@ form{
 #error{
     color: red;
     position: absolute;
-    left: 13rem;
+    left: 15rem;
     top: 5px;
 }
